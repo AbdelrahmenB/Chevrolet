@@ -1,34 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Chevrolet</title>
-</head>
-<body>
-    <header>
-        <h1>Chevrolet</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Présentation du Projet</h2>
-            <p>Chevrolet une des plus grande marque automobile, le bute de notre site et de vous aide a choisir le meilleur model qui vous conviendra le mieux avec votre budget, qu'il soit limite un porte peu.</p>
-        </section>
-    </main>
+/* ... vos styles existants ... */
 
-    <footer>
-<p>Projet réalisé par Bourara Abdelrahmen</p>
-    </footer>
-    <nav>
-         <ul>
-            <li><a href=https://www.corvetteblogger.com/2024/05/15/chevrolet-launches-update-to-its-build-and-buy-configurator/ "index.html" >lien vers a corvette</a></li> et <li><a href="details.html">Détails Techniques</a></li>
-         </ul>
-    </nav>
-    <main>
-    <h2><form>, <label>, <input type="Me contacter">, <input type="travailst2024@gmail.com">, <textarea> et <button type="submit"></button></h2>
-   </main>
-  
-</body>
-</html>
+body.dark-mode {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
 
+body.dark-mode .container {
+  background-color: #34495e;
+  /* Ajoutez d'autres styles pour le dark mode si nécessaire */
+}
+
+body.dark-mode a {
+  color: #3498db;
+}
